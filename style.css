@@ -1,0 +1,53 @@
+#game-container {
+    width: 1000px;
+    height: 600px;
+    position: relative;
+    margin: auto;
+}
+#correctWords {
+    font-size: 25px;
+}
+
+#timer {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+}
+
+#newGameButton {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 180px;
+    height: 40px;
+    font-size: 18px;
+}
+  
+#gameOverMessage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    color: red;
+}
+  
+#text {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    font-size: 25px;
+}
+
+#input {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+}
