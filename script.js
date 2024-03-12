@@ -41,9 +41,10 @@ function checkCharacters() {
     } else if (randomSentence[randomSentenceIndex] !== inputWord[inputIndex]) {
         matchChars = 0;
     } else if (randomSentence[randomSentenceIndex] === inputWord[inputIndex] && randomSentence[randomIndex] === ' ') {
+        ++randomSentenceIndex;
         inputIndex = randomSentenceIndex;
     }
-    console.log(inputWord[inputIndex]);
+    console.log(inputIndex, randomSentenceIndex);
     if (randomSentenceIndex === randomSentence.length - 1) {
         displaySentence();
         document.getElementById('input').value = '';
@@ -67,6 +68,7 @@ function startGame() {
     wordLength = 0;
     matchLetters = 1;
     correctWordsCounter = 0;
+    randomSentenceIndex = 0;
     interval = setInterval(updateTimer, 1000);
     newGameButton.style.display = 'none';
     document.getElementById('gameOverMessage').innerHTML = '';
