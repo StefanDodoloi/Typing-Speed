@@ -51,3 +51,11 @@
     height: 40px;
     font-size: 20px;
 }
+
+.success {
+    color: rgb(21, 173, 21);
+}
+
+.fail {
+    color: red;
+}
