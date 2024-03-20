@@ -8,7 +8,7 @@ let textElement = document.getElementById('text');
 let inputElement = document.getElementById('input');
 
 const sentences = [
-    'cartoons table computer sea games', 'cake water house artist building', 
+    'cartoons table computer sea games', 'cake water house artist build', 
     'tomato piece cups leaf night', 'rocket dream glass thin boxes', 
     'butterfly flutters gently in garden', 'ocean waves crash loudly nearby',
     'bed there balloons flour pot', 'bricks rain hole world park',
