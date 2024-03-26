@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(147, 244, 136);
+}
+
 #game-container {
     width: 1000px;
     height: 600px;
@@ -11,7 +15,8 @@
 #timer {
     position: absolute;
     top: 30%;
-    left: 50%;
+    left: 48%;
+    font-size: 30px;
 }
 
 #newGameButton {
@@ -22,6 +27,10 @@
     width: 180px;
     height: 40px;
     font-size: 18px;
+    color: white;
+    background-color: #38b9e4;
+    border: none;
+    border-radius: 50px;
 }
   
 #gameOverMessage {
@@ -50,6 +59,8 @@
     width: 300px;
     height: 40px;
     font-size: 20px;
+    border: none;
+    border-radius: 5px;
 }
 
 .success {
